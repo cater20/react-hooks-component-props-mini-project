@@ -1,12 +1,15 @@
 import React from "react";
-//import Header from "./Header";
+
  
-function Header({name}){
+function Header(props){
     return (
-    <Header>
-        <h1>{name}</h1>
-    </Header>
+        
+            <header><h1>
+                {props.name}
+                </h1>
+            </header>
+    
+    
     );
 }
-
-export default Header
+export default Header;
